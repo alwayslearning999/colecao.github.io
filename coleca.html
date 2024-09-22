@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <table border="2px">
+        <thead>
+            <tr>
+                <th colspan="6">Defesa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Dungeon</td>
+                <td colspan="2">Mundo</td>
+                <td colspan="2">Especial</td>
+            </tr>
+            <tr>
+                <td>DG</td>
+                <td>Materiais</td>
+                <td>Mapa</td>
+                <td>Materiais</td>
+                <td>Coleção</td>
+                <td>Materiais</td>
+            </tr>
+            <tr>
+                <td>(89%) Estação R.2 (Evasao)</td>
+                <td><ul><li>119x Quartzo Aqua</li></ul></td>
+            </tr>
+            <tr>
+               <td>(80%) Estação R.3</td>
+               <td>
+                <ul>
+                    <li>300x Quartzo Aqua</li>
+                    <li>4x Dragona Titanio</li>
+                </ul>
+               </td>
+            </tr>
+            <tr>
+                <td>(36%) Estação R.4</td>
+                <td><ul>
+                    <li>242x App Medio</li>
+                    <li>254x Arcano Medio</li>
+                    <li>146x Perg.Arma Medio</li>
+                    <li>476x Astral Ttn</li>
+                    <li>500x Quartzo Aqua</li>
+                    <li>800x App pdç</li>
+                    <li>10x Drag.Sombras</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(25%) Estação R.5</td>
+                <td><ul>
+                    <li>500x App Medio</li>
+                    <li>500x Arcano Medio</li>
+                    <li>400x Perg.Arma Medio</li>
+                    <li>376x Perg.Armadura Medio</li>
+                    <li>1000x Astral Ttn</li>
+                    <li>1000x Quartzo Aqua</li>
+                    <li>1600x App pedaço</li>
+                    <li>10x Drag. Sombras</li>
+                    <li>10x Drag. Titanio</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(73%) Selo 4(Bloqueio)</td>
+                <td><ul>
+                    <li>300x App.Alto</li>
+                    <li>300x Arcano Alto</li>
+                    <li>185x Quartzo Ametista</li>
+                </ul></td>
+                <tr>
+                <td>(50%) Selo 5</td>
+                <td><ul>
+                    <li>500x App.Alto</li>
+                    <li>500x Arcano Alto</li>
+                    <li>1000x Quartzo Ametista</li>
+                    <li>800x App.Pedaço</li>
+                    <li>6x Bricry</li>
+                    <li>1x Extensor Alto</li>
+                </ul></td>
+                </tr>
+            </tr>
+            <tr>
+                <td>(89%) Castelo Ilusões 2 (Bloqueio)</td>
+                <td><ul>
+                    <li>28x Quartzo Topazio</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(70%) Castelo Ilusões 3</td>
+                <td><ul>
+                    <li>77x App Alto</li>
+                    <li>300x Quartzo Topazio</li>
+                    <li>6x Drag.Raro</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(45%) Castelo Ilusões 4</td>
+                <td><ul>
+                    <li>300x App Alto</li>
+                    <li>300x Arcano Alto</li>
+                    <li>500x Quartzo Topazio</li>
+                    <li>800x App Pedaço</li>
+                    <li>10x Drag.Raro</li>
+                    <li>195x Material Lycanus</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(25%) Castelo Ilusões 5</td>
+                <td><ul>
+                    <li>500x App Alto</li>
+                    <li>500x Arcano Alto</li>
+                    <li>729x Astral Osmr</li>
+                    <li>1000x Quartzo Topazio</li>
+                    <li>795x Material Osmr</li>
+                    <li>1600x App Pedaço</li>
+                    <li>10x Drag Rara</li>
+                    <li>10x Arma Lycanus +7</li>
+                    <li>1x Extensor alto</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(40%) Siena 1 - 3(Ign.Acerto)</td>
+                <td><ul>
+                    <li>300x Quartzo Topazio</li>
+                    <li>42x App Alto</li>
+                    <li>100x Arcano Alto</li>
+                    <li>300x Quartzo Topazio</li>
+                    <li>236x Material Osmr</li>
+                    <li>88x App Pedaço</li>
+                    <li>9x Angelo</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(27%) Siena 1 - 4</td>
+                <td><ul>
+                    <li>300x App Alto</li>
+                    <li>300x Arcano Alto</li>
+                    <li>71x Astral Osmr</li>
+                    <li>500x Quartzo Topazio</li>
+                    <li>500x Material Osmior</li>
+                    <li>800x App Pedaço</li>
+                    <li>10x Angelo</li>
+                    <li>50x Prideus</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(17%) Siena 1 - 5</td>
+                <td><ul>
+                    <li>500x App Alto</li>
+                    <li>500x Arcano Alto</li>
+                    <li>1000x Astral Osmr</li>
+                    <li>1000x Quartzo Topazio</li>
+                    <li>1000x Material Osmr</li>
+                    <li>1600x App Pedaço</li>
+                    <li>1600x Arcano Pedaço</li>
+                    <li>10x Angelo</li>
+                    <li>50x Prideus</li>
+                    <li>1x Arcano Alto</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(89%) B3F 1 (ign.Perfuração)</td>
+                <td><ul><li>50x Quartzo Orichal</li></ul></td>
+            </tr>
+            <tr>
+                <td>(78%) B3F 2</td>
+                <td><ul>
+                    <li>150x Quarto Orichal</li>
+                    <li>112x Material Orichal</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(0%) C1D 4(Red.Dano)</td>
+                <td><ul>
+                    <li>300x App Altissimo</li>
+                    <li>300x Arcano Altissimo</li>
+                    <li>400x Perg.Altissimo Arma</li>
+                    <li>400x Perg.Altissimo Armadura</li>
+                    <li>500x Astral Paladio</li>
+                    <li>500x Quartzo Paladio</li>
+                    <li>500x Material Paladio</li>
+                    <li>800x App pedaço</li>
+                    <li>5x Perga Purificaçao</li>
+                    <li>1x Sorte +4</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(0%) C1D 5</td>
+                <td><ul>
+                    <li>500x App Altissimo</li>
+                    <li>500x Arcano Altissimo</li>
+                    <li>800x Perg.Altissimo Arma</li>
+                    <li>800x Perg.Altissimo Armadura</li>
+                    <li>1000x Astral Paladio</li>
+                    <li>1000x Quartzo Paladio</li>
+                    <li>1000x Material Paladio</li>
+                    <li>1600x App Pedaço</li>
+                    <li>1600x Arcano Pedaço</li>
+                    <li>20x Perga Purificaçao</li>
+                    <li>1x Sorte +4</li>
+                    <li>1x Extensor Alto</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(78%) C2D 1 (Evasão)</td>
+                <td><ul>
+                    <li>50x Quartzo Paladio</li>
+                    <li>50x Material Paladio</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(67%) C2D 2</td>
+                <td><ul>
+                    <li>16x App Altissimo</li>
+                    <li>150x Quartzo Paladio</li>
+                    <li>150x Material Paladio</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(30%) C2D 3</td>
+                <td><ul>
+                    <li>50x App Altissimo</li>
+                    <li>100x Arcano Altissimo</li>
+                    <li>300x Astral Paladio</li>
+                    <li>300x Quartzo Paladio</li>
+                    <li>300x Material Paladio</li>
+                    <li>600x App Pedaço</li>
+                    <li>4x Essência</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(9%) Pandemonio (Ign.perfuração)</td>
+                <td><ul>
+                    <li>300x App Altissimo</li>
+                    <li>300x Arcano Altissimo</li>
+                    <li>400x Perg.Arma Altissimo</li>
+                    <li>400x Perg.Armadura Altissimo</li>
+                    <li>500x Quartzo Orichal</li>
+                    <li>500x Material Orichal</li>
+                    <li>800x App Pedaço</li>
+                    <li>800x Arcano Pedaço</li>
+                    <li>300x Nix</li>1
+                    <li>10x Gema Liberaçao</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(0%) Pandemonio</td>
+                <td><ul>
+                    <li>500x App Altissimo</li>
+                    <li>500x Arcano Altissimo</li>
+                    <li>800x Perg.Arma Altissimo</li>
+                    <li>800x Perg.Armadura Altissimo</li>
+                    <li>33x Astral Orichal</li>
+                    <li>1000x Quartzo Orichal</li>
+                    <li>1000x Material Orichal</li>
+                    <li>1600x App Pedaço</li>
+                    <li>1600x Arcano Pedaço</li>
+                    <li>280x Nix</li>
+                    <li>10x Gema Liberaçao</li>
+                    <li>1x Extensor Alto</li>
+                </ul></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table>
+        <tr><td>------------------------------------------</td></tr>
+    </table>
+
+
+    <table border="2px" class="atq">
+        <thead>
+            <tr>
+                <th colspan="6">Ataque</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Dungeon</td>
+                <td colspan="2">Mundo</td>
+                <td colspan="2">Especial</td>
+            </tr>
+            <tr>
+                <td>DG</td>
+                <td>Materiais</td>
+                <td>Mapa</td>
+                <td>Materiais</td>
+                <td>Coleção</td>
+                <td>Materiais</td>
+            </tr>
+            <tr>
+                <td>(64%) T2 4 (ataque)</td>
+                <td><ul>
+                    <li>300x App Altissimo</li>
+                    <li>300x Arc Altissimo</li>
+                    <li>446x Quarto Mitrhil</li>
+                    <li>3x Aneis Leth</li>
+                </ul></td>
+            </tr>
+            <tr>
+            <td>(58%) T2 5</td>
+            <td><ul>
+                <li>500x App Altissimo</li>
+                <li>500x Arcano Altissimo</li>
+                <li>1000x Quartzo Mitrhil</li>
+                <li>3x Anel Leth</li>
+                <li>1x Extensor Altissimo</li>
+            </ul></td>
+            </tr>
+            <tr>
+                <td>(64%) B3F 4 (Dano Critico)</td>
+                <td><ul>
+                    <li>59x Arcano Altissimo</li>
+                    <li>60x Quarto Orichal</li>
+                    <li>1x tempus</li>
+                    <li>2x Extensor Alto</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(55%) B3F 5</td>
+                <td><ul>
+                    <li>134x App Altissimo</li>
+                    <li>500x Arcano Altissimo</li>
+                    <li>1000x Quarto Orichal</li>
+                    <li>3x Tempus</li>
+                    <li>3x Extensor Alto</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(89%) T2D 2 (ataque)</td>
+                <td><ul>
+                    <li>x63 Quartzo Orichal</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(60%) T2D 3</td>
+                <td><ul>
+                    <li>100x Arcano Altissimo</li>
+                    <li>300x Quartzo Orichal</li>
+                    <li>300x Material Orichal</li>
+                    <li>4x Drag Orichal</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(64%) T2D 4</td>
+                <td><ul>
+                    <li>300x Arcano Altissimo</li>
+                    <li>500x Quartzo Orichal</li>
+                    <li>4x Drag.Orichal</li>
+                    <li>1x Leth Desperta</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(42%) T2D 5</td>
+                <td><ul>
+                    <li>500x App Altissimo</li>
+                    <li>500x Arcano Altissimo</li>
+                    <li>1000x Quartzo Orichal</li>
+                    <li>1000x Material Orichal</li>
+                    <li>1x Leth Desperta</li>
+                    <li>4x Drag. Orichal</li>
+                    <li>1x Extensor Altissimo</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(42%) Cidade 4 (amp)</td>
+                <td><ul>
+                    <li>300x App Altissimo</li>
+                    <li>300x Arcano Altissimo</li>
+                    <li>500x Quartzo Paladio</li>
+                    <li>500x Material Paladio</li>
+                    <li>1x Pedra Sirius Alto</li>
+                    <li>1x Extensor Alto</li>
+                    <li>1x Pedra Sirius Altissimo</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(33%) Cidade 5</td>
+                <td><ul>
+                    <li>500x App Altissimo</li>
+                    <li>500x Arcano Altissimo</li>
+                    <li>1000x Astral Paladio</li>
+                    <li>1000x Quartzo Paladio</li>
+                    <li>1000x Material Paladio</li>
+                    <li>1x Sirius Alto</li>
+                    <li>1x Sirius Altissimo</li>
+                    <li>3x Extensor Alto </li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(36%) Fronteira 4 (dano)</td>
+                <td><ul>
+                    <li>276x App Altissimo</li>
+                    <li>300x Arcano Altissimo</li>
+                    <li>400x Perg.Arma Altissimo</li>
+                    <li>500x Quartzo Paladio</li>
+                    <li>500x Material Paladio</li>
+                    <li>1x PW</li>
+                    <li>3x Drag Orichal</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(25%)Fronteira 5 (dano)</td>
+                <td><ul>
+                    <li>500x App Altissimo</li>
+                    <li>500x Arcano Altissimo</li>
+                    <li>800x Perg.Arma Altissimo</li>
+                    <li>1000x Astral Paladio</li>
+                    <li>1000x Quartzo Paladio</li>
+                    <li>1000x Material Paladio</li>
+                    <li>1x PW</li>
+                    <li>3x Dragona Orichal</li>
+                    <li>1x Extensor Alto</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(45%) Acheron 4 (dano %)</td>
+                <td><ul>
+                    <li>300x App Altissimo</li>
+                    <li>300x Arcano Altissimo</li>
+                    <li>272x Perg.Arma Altissimo</li>
+                    <li>440x Quartzo Paladio</li>
+                    <li>83x Material Paladio</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(33%) Acheron 5</td>
+                <td><ul>
+                    <li>500x App Altissimo</li>
+                    <li>500x Arcano Altissimo</li>
+                    <li>800x Perg.Arma Altissimo</li>
+                    <li>673x Perg.Armadura Altissimo</li>
+                    <li>1000x Astral Paladio</li>
+                    <li>1000x Quartzo Paladio</li>
+                    <li>1000x Material Paladio</li>
+                    <li>1x Extensor Alto</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(36%) Posto 4 (ataque)</td>
+                <td><ul>
+                    <li>300x App Altissimo</li>
+                    <li>300x Arcano Altissimo</li>
+                    <li>162x Perg.Arma Altissimo</li>
+                    <li>500x Quartzo Mitril</li>
+                    <li>8x Material Drei</li>
+                    <li>1x Drag. Drei</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(17%) Posto 5</td>
+                <td><ul>
+                    <li>500x App Altissimo</li>
+                    <li>500x Arcano Altissimo</li>
+                    <li>800x Perg.Arma Altissimo</li>
+                    <li>800x Perg.Armadura Altissimo</li>
+                    <li>1000x Astral Mitril</li>
+                    <li>1000x Quartzo Mitril</li>
+                    <li>1000x Material Mitril</li>
+                    <li>100x Material Drei</li>
+                    <li>5x Drag.Drei</li>
+                    <li>1x Extensor Alto</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(18%) T3 4 (perfuração)</td>
+                <td><ul>
+                    <li>170x App Extremo</li>
+                    <li>158x Arcano Extremo</li>
+                    <li>400x Perg.Arma Extremo</li>
+                    <li>394x Perg.Armadura Extremo</li>
+                    <li>373x Astral Demonite</li>
+                    <li>463x Quartzo Demonite</li>
+                    <li>374x Material Demonite</li>
+                    <li>4x Drag.Demonite</li>
+                    <li>1x Mazel</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(17%) T3 5</td>
+                <td><ul>
+                    <li>500x App Extremo</li>
+                    <li>500x Arcano Extremo</li>
+                    <li>800x Perg.Arma Extremo</li>
+                    <li>800x Perg.Armadura Extremo</li>
+                    <li>1000x Astral Demonite</li>
+                    <li>1000x Quartzo Demonite</li>
+                    <li>1000x Material Demonite</li>
+                    <li>4x Drag.Demonite</li>
+                    <li>1x Mazel</li>
+                    <li>1x Extensor Altissimo</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(18%) Ilha Miragem 4</td>
+                <td><ul>
+                    <li>300x App Extremo</li>
+                    <li>300x Arcano Extremo</li>
+                    <li>400x Perg.Arma Extremo</li>
+                    <li>400x Perg.Armadura Extremo</li>
+                    <li>500x Astral Demonite</li>
+                    <li>500x Quartzo Demonite</li>
+                    <li>500x Material Demonite</li>
+                    <li>4x Drag.Demonite</li>
+                    <li>1x Qw</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>(17%) Ilha Miragem 5</td>
+                <td><ul>
+                    <li>500x App Extremo</li>
+                    <li>500x Arcano Altissimo</li>
+                    <li>800x Perg.Arma Extremo</li>
+                    <li>800x Perg.Armadura Extremo</li>
+                    <li>1000x Astral Demonite</li>
+                    <li>1000x Quartzo Demonite</li>
+                    <li>1000x Material Demonite</li>
+                    <li>4x Drag.Demonite</li>
+                    <li>1x Qw</li>
+                    <li>1x Extensor Altissimo</li>
+                </ul></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
